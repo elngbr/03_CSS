@@ -1,0 +1,28 @@
+#background {
+  height: 200px;
+  width: 200px;
+
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrVWGuVgz9VS-Igqc4PCJTqF0uO_6trJvCw&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#gradient {
+  height: 200px;
+  width: 200px;
+  /* background-color: blue; */
+  background: linear-gradient(to left, pink, purple);
+  /* I can insert MORE than 2 colors  */
+}
+
+#png {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrVWGuVgz9VS-Igqc4PCJTqF0uO_6trJvCw&usqp=CAU");
+  background-size: cover;
+  background-color: darkslategray;
+}
+
+/*div{
+    display: inline-block
+}*/

@@ -1,0 +1,36 @@
+div {
+  height: 100px;
+  width: 100px;
+}
+#box1 {
+  background-color: mediumvioletred;
+  position: static;
+}
+#box2 {
+  background-color: deeppink;
+  position: relative;
+}
+#box3 {
+  background-color: blueviolet;
+  /* position:absolute;
+  left:100px; 
+   */
+  /* position:fixed; */
+  /* position:sticky;
+  top:1000px; */
+}
+#box4 {
+  background-color: magenta;
+  /* position: absolute;
+  bottom: 100px; */
+}
+#box5 {
+  background-color: purple;
+  /* position:absolute;
+  right:100px; */
+  /* position:fixed; */
+}
+#box6 {
+  background-color: rgb(255, 182, 250);
+  /* position:fixed; */
+}

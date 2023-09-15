@@ -1,0 +1,25 @@
+#box1 {
+  background-color: navy;
+}
+
+#box2 {
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+
+div {
+  padding: 10px 20px 30px 40px;
+  margin-top: 20px;
+  /* LA BORDER AVEM GROSIME, TIP SI CULOARE */
+  border: 5px double gray;
+  /* orice e mai mic de 50% se duce la patrat, orice e mai mare de
+  50% se duce la cerc */
+
+
+
+  /* ASA CENTRAM CEL CEL CEL MAI BINE TEXTUL */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

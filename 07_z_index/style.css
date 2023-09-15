@@ -1,0 +1,30 @@
+div {
+  height: 100px;
+  width: 100px;
+}
+#box1 {
+  background-color: mediumvioletred;
+  position: static;
+  z-index:2;
+}
+#box2 {
+  background-color: deeppink;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top:-75px;
+  left:25px;
+  z-index: 3;
+}
+#box3 {
+  background-color: blueviolet;
+}
+#box4 {
+  background-color: magenta;
+}
+#box5 {
+  background-color: purple;
+}
+#box6 {
+  background-color: rgb(255, 182, 250);
+}
